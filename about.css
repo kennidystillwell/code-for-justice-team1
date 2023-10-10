@@ -1,0 +1,14 @@
+main {
+    height: 100vh;
+ }
+ .container{
+    display: flex;  
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 20px;
+ }
+
+ .headone{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #24475b;
+ }
