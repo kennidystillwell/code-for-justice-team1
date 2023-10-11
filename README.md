@@ -28,6 +28,19 @@ Welcome to the GitHub repository for the Digital Bridge Foundation website. This
 5. **Chaslon**:
    - **Tasks**:
      - Design and develop the **Program Page**.
+## Getting Started:
+
+1. **Clone the Repository**:
+   ```
+   git clone git@github.com:kennidystillwell/code-for-justice-team1.git
+   ```
+
+2. **Navigate to the project directory**:
+   ```
+   cd code-for-justice-team1
+   ```
+
+3. **Open `index.html` in your browser** to view the website.
 
 
 ## Collaborative Efforts:
