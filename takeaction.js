@@ -1,4 +1,3 @@
-// by clicking in the nav indicators, move to that slide
 const track = document.querySelector('.galery_track');
 const slide = Array.from(track.children);
 const nextButton = document.querySelector('.galery_button--right');
@@ -8,24 +7,18 @@ const dots = Array.from(dotsNav.children);
 
 
 const slideWidth = slide[0].getBoundingClientRect().width;
-//console.log(slidewidth);
 
-//slides[0].style.left = slideWidth *  0;
-//slide[1].style.left = slideWidth + 'px';
-//slide[2]
 const setSlidePosition = (slide, index) =>{
     slide.style.left = slideWidth * index + 'px';
 };
 slide.forEach(setSlidePosition);
-//slide.forEach((slide, index) => {
-  //  slide.style.left = slideWidth * index + 'px';
-//})
+
 
 const moveToSlide = (track, currentSlide, targetSlide ) => {
     track.style.transform = 'translateX(-' + targetSlide.style.left + ')';
     currentSlide.classList.remove('current-slide');
     targetSlide.classList.add('current-slide');
-}
+};
 
 const updateDots = (currentDot, targetDot) => {
     currentDot.classList.remove('current-slide');
@@ -55,9 +48,7 @@ prevButton.addEventListener('click', e => {
     moveToSlide(track, currentSlide, prevSlide)
     updateDots(currentDot, prevDot);
     hideShowArrows(slide, prevButton, nextButton, prevIndex);
-
-
-})
+});
 
 
 nextButton.addEventListener('click', e => {
@@ -71,11 +62,6 @@ nextButton.addEventListener('click', e => {
 updateDots(currentDot, nextDot);
 hideShowArrows(slide, prevButton, nextButton, nextIndex);
     
-    //const amountToMove = nextSlide.style.left;
-
-//track.style.transform = 'translateX(-' + amountToMove +')';
-//currentSlide.classList.remove('current-slide');
-//nextSlide.classList.add('current-slide');
 
 moveToSlide(track, currentSlide, nextSlide); 
 updateDots(currentDot, nextDot);
@@ -98,10 +84,5 @@ dotsNav.addEventListener('click', e => {
     moveToSlide(track, currentSlide, targetSlide);
     updateDots(currentDot, targetDot);
     hideShowArrows(slide, prevButton, nextButton, targetIndex);
-   
-
-
-   
-
-})
+});
 
