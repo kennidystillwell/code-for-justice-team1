@@ -1,7 +1,12 @@
+    
     body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    }
+
+    main {
+        flex-grow: 1;
     }
 
     ul, li {
@@ -41,9 +46,7 @@
         justify-content:center;
         margin-top: auto;
     }
-    main {
-        flex-grow: 1;
-    }
+
 
     #left-words {
         color: white;
@@ -96,7 +99,7 @@
         justify-content: space-between;
     }
     
-    .old {
+    #old {
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -119,6 +122,116 @@
         box-shadow: 0 0 10px 0 black;
     }
 
-    header {
+    .old-picture {
         background-color: rgb(207, 212, 201);
+        display: flex;
+        justify-content: inline-block;
     }   
+
+    h1 {
+        text-align: center;
+        font-family: sans-serif;
+    }
+
+    #logo {
+        position: absolute;
+        top: 0.5%;
+    }
+
+
+    .fun-facts {
+        display: flex;
+        margin-top: 20px;
+        justify-content: space-evenly;
+        font-family:'Times New Roman', Times, serif;
+        background-color: rgb(231, 242, 231);
+        border-radius: 10px;
+        border-color: black;
+        border-width: 2px;
+        border-style: solid;
+        width: 80%;
+        margin: auto;
+        box-shadow: 5px 10px rgb(120, 139, 117);
+        padding: 20px;
+        font-size: 18px;
+    }
+
+    #fact1 {
+        border-radius: 10px;
+        border-style: solid;
+        padding: 15px;
+        text-align: center;
+        border-width: 2px;
+        border-color:rgb(203, 232, 205);
+        box-shadow: 5px 10px rgb(202, 216, 199);
+        padding-top: 22px;
+    
+    }
+
+    #fact2 {
+        border-radius: 10px;
+        border-style: solid;
+        padding: 15px;
+        text-align: center;
+        border-width: 2px;
+        border-color:rgb(203, 232, 205);
+        box-shadow: 5px 10px rgb(202, 216, 199);
+        padding-top: 25px;
+    }
+
+    #fact3 {
+        border-radius: 10px;
+        border-style: solid;
+        padding: 10px;
+        text-align: center;
+        border-width: 2px;
+        border-color: rgb(203, 232, 205);
+        box-shadow: 5px 10px rgb(202, 216, 199);
+    }
+
+    #DBG {
+        text-shadow: 2px 2px 4px rgb(179, 218, 179);
+        letter-spacing: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 45px;
+        text-align: center;
+    }
+
+    #DBG2 {
+        text-shadow: 2px 2px 4px rgb(179, 218, 179);
+        letter-spacing: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+    }
+
+    #paragraph {
+        background-color: rgb(231, 242, 231);
+        text-align: center;
+        border-width: 2px;
+        border-style: solid;
+        border-radius: 10px;
+        border-color: black;
+        box-shadow: 5px 10px rgb(120, 139, 117);
+        padding: 25px;
+        font-size: 22px;
+        font-family:'Times New Roman', Times, serif;
+    }
+
+    #people-phones {
+        display: flex;
+        justify-content: space-between;
+        padding: 60px;
+    }
+    
+    .old-phones {
+        border-width: 2px;
+        border-radius: 50%;
+        border-style: solid;
+        border-color: rgb(146, 180, 150);
+        
+    }
+
+    #bottom-box {
+        padding-bottom: 20px;
+
+    }
