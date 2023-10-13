@@ -1,0 +1,92 @@
+img {
+    border: 10px solid rgb(106, 149, 105);
+    border-radius: 50%;
+  }
+ #cutecouple{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ #handsomeman{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ #cutercouple{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+section{
+  margin-inline: 10px;
+  padding-left: 5%;
+  float: center;
+}
+h1{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  color: rgb(106, 149, 105)
+
+}
+footer {
+  background-color: rgb(106, 149, 105);
+  padding: 20px;
+}
+.icons{
+  display: flex;
+  justify-content:center;
+  margin-top: auto;
+}
+.paragraph3{
+  border: 2px;
+  border-radius: 2px;
+}
+
+.boxed {
+  border: 3px solid  rgb(106, 149, 105);
+  border-radius: 3px;
+  padding: 5%;
+  margin: 5px;
+}
+
+.boxed2{
+  border: 2px solid  rgb(106, 149, 105);
+  border-radius: 1%;
+  padding: 5%;
+  margin: 5px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 0fr);
+  gap: 3px;
+  
+}
+
+h2{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 36px;
+  color: rgb(106, 149, 105);
+}
+
+h3{
+  color: rgb(106, 149, 105);
+  /* color:white; */
+}
+
+h4{
+  text-align: right;
+  text-indent: 4%;
+}
+
+p{
+  font-size: 36px;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(106, 149, 105)
+
+}
+
+
+
