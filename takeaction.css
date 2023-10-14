@@ -1,3 +1,14 @@
+div .elder-people{
+    width: 100vh;
+
+}
+
+#elderpeople{
+    height: 300px;
+    width: 100%;
+    opacity: 60%;
+}
+
 h1{
     text-align: center;
 }
@@ -15,7 +26,7 @@ h2{
 .main_square_cont{
     position: relative;
     height: 400px;
-    width: 70%;
+    width: 700px;
     margin-left: 14%;
 }
 
@@ -77,6 +88,10 @@ text-align: cover;
 
 .galery_button--right{
     right:-1195px;
+    border: solid;
+    margin-left: 20vh;
+
+    padding-right: 0;
 }
 
 .galery_button img{
@@ -106,3 +121,31 @@ text-align: cover;
 }
 
 .is-hidden {display: none;}
+
+.elder-pics {
+    background: rgb(106, 149, 105) ;
+        height: 100px;
+        width: 100%;
+        margin-top: 20px ;
+        margin-bottom: 70px;
+        padding-top: 12px;
+        padding-bottom: 60px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    
+}
+
+
+#photoelder{
+    width: 220px;
+    height: 150px;
+    padding: 0 25px 0 25px;
+}
+
+#photoelder:hover{
+    width: 260px;
+   
+    cursor: pointer;
+
+}
