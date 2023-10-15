@@ -63,10 +63,6 @@ updateDots(currentDot, nextDot);
 hideShowArrows(slide, prevButton, nextButton, nextIndex);
     
 
-moveToSlide(track, currentSlide, nextSlide); 
-updateDots(currentDot, nextDot);
-hideShowArrows(slide, prevButton, nextButton, nextIndex);
-
 
 });
 
