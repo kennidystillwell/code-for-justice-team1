@@ -1,5 +1,5 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman';
 }
 
 div .elder-people{
@@ -8,7 +8,9 @@ div .elder-people{
 }
 
 #logotac{
-    position: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100px;
     height: 83.77px;
 }
@@ -22,9 +24,9 @@ div .elder-people{
 }
 
 h1{
+    font-family: 'Times New Roman', Times, serif;
     text-shadow: 2px 2px 4px rgb(179, 218, 179);
     letter-spacing: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 45px;
     text-align: center;
 }
@@ -33,7 +35,6 @@ h2{
     text-align: center;
     text-shadow: 2px 2px 4px rgb(179, 218, 179);
     letter-spacing: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.5rem;
 }
 
@@ -45,9 +46,10 @@ h2{
 .main_square_cont{
     position: relative;
     height: 450px;
-    width: 680px;
+    width: 695px;
     left: 30%; 
 }
+
 
 .slide_cont{ 
     width: 100%;
@@ -56,7 +58,8 @@ h2{
     text-align: center;
     background: rgb(231, 242, 231);
     border:solid rgb(1, 1, 1);
-    border-radius: 10px;   
+    border-radius: 10px; 
+   
 }
 
 .galery_track-container{
@@ -64,7 +67,11 @@ h2{
     height: 85%;
     position: relative;
     overflow: hidden;
-    margin: 40px;
+    margin: 15px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+ 
 }
 
 .galery_track{
@@ -74,6 +81,9 @@ h2{
    position: relative;
    height: 100%;
    transition: transform 250ms ease-in;
+   padding-left: 10px;
+   padding-right: 10px;
+   
 }
 
 .slide_galery{
@@ -91,7 +101,9 @@ h2{
     box-shadow:2px 2px 4px rgb(179, 218, 179);
 }
 
-.join-button:hover, .join-button:active{
+.join-button:hover{
+    width: 135px;
+    height: 46px;
     color: azure;
     background: rgb(179, 218, 179) ;
     border: whitesmoke;
@@ -128,7 +140,6 @@ h2{
     position: absolute;
     left: 30%;
     bottom: 30px;
- 
     padding: 5px;
     margin: 0 10px 20px 90px;
 }
@@ -149,11 +160,32 @@ h2{
 
 .is-hidden {display: none;}
 
-#postelder{
+.postelder{
 height: 200px;
 width: 300px;
 border-radius: 50%;
 }
+
+.postelder:hover{
+    border:solid rgb(1, 1, 1);
+    height: 210px;
+width: 310px;
+}
+
+.pic-elder{
+    position: absolute;
+    left: 15vh;
+    top: 82vh;     
+}
+
+.pic-elder2{
+    position: absolute;
+    right: 15vh;
+    top: 82vh;
+}
+
+
+
 
 .elder-pics {
     background: rgb(231, 242, 231);
@@ -182,3 +214,80 @@ border-radius: 50%;
     height: 160px;
     cursor: pointer;
 }
+/*@media screen and (max-width: 390px) {
+  .main_square_cont{
+      width: 170px;
+      height: 140px;
+
+  }
+    #logotac{
+        height: 10px;
+        width: 20px;
+    }
+    #elderpeople{
+      width: 100%;
+      height: auto;
+    }
+
+    .navbar{
+        width: 100%;
+    }
+
+    .main_square_cont{
+        height: 15px;
+        width: 3px;
+    }
+
+    .postelder{
+        width: 3px;
+        height: 1px;
+    }
+
+    .postelder:hover{
+         width: 4px;
+         height: 2px;
+    }
+    #photoelder{
+        width: 3px;
+        height: 1.5px;
+    }
+}
+
+    
+
+@media all and (min-width: 391px) and (max-width:1023px){
+  
+    .main_square_cont{
+        width: 170px;
+        height: 140px;
+  
+    }
+
+        #logotac{
+        height: 50px;
+        width: 50px;
+    }
+    #elderpeople{
+      width: 100%;
+      height:150px;
+    }
+
+    .navbar{
+        width: 100%;
+    }
+
+    .main_square_cont{
+        height: 150px;
+        width: 300px;
+    }
+
+    .postelder{
+        width: 130px;
+        height: 110px;
+    }
+
+    .postelder:hover{
+         width: 140px;
+         height: 120px;
+    }
+      }*/
