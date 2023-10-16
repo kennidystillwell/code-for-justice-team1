@@ -46,7 +46,7 @@ h2{
 .main_square_cont{
     position: relative;
     height: 450px;
-    width: 700px;
+    width: 695px;
     left: 30%; 
 }
 
@@ -58,18 +58,20 @@ h2{
     text-align: center;
     background: rgb(231, 242, 231);
     border:solid rgb(1, 1, 1);
-    border-radius: 10px;  
+    border-radius: 10px; 
+   
 }
 
 .galery_track-container{
     padding: 10px;
     height: 85%;
-    /*width: 90%;*/
     position: relative;
     overflow: hidden;
-    margin: 40px;
-    padding: 15px;
-
+    margin: 15px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+ 
 }
 
 .galery_track{
@@ -79,6 +81,9 @@ h2{
    position: relative;
    height: 100%;
    transition: transform 250ms ease-in;
+   padding-left: 10px;
+   padding-right: 10px;
+   
 }
 
 .slide_galery{
