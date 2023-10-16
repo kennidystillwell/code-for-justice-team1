@@ -8,25 +8,26 @@ body {
         background-color: rgb(207, 212, 201);  
         text-align:center;
         font-size: 40px;
-    }  
+    } 
+
     header h1:hover{
-    color: white;
+        color: white;
     } 
 
     ul, li {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+        margin: 0;
+        padding: 0;
+        list-style: none;
     }
 
     nav {
-    background-color:rgb(106, 149, 105);
+        background-color:rgb(106, 149, 105);
     }
 
     .navbar {
-    display: flex;
-    justify-content: space-around;
-    padding: 10px;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
     }
 
     a {
@@ -103,6 +104,7 @@ body {
     footer {
         display: flex;
         justify-content: space-between;
+    
     }
     
     .old {
@@ -113,7 +115,6 @@ body {
     }
 
     .email {
-        border-radius: 8px;
         border-color: rgb(106, 149, 105);
         height: 20px;
         padding-left: 5px;
@@ -139,39 +140,37 @@ body {
    
     
      .box-display{
-        height: 500px;
-        width: 500px;
+        height: 640px;
+        width: 600px;
         border: 3px solid rgb(106, 149, 105);
-        box-shadow: 50px;
+        box-shadow: 5px 10px rgb(120, 139, 117x);
         animation-name: box-display;
         animation-duration: 7s;
         animation-iteration-count: infinite;
         animation-timing-function: linear;
-        margin-bottom: 300px;
-        display: inline-block;
-        
+        display: inline-block; 
      }
 
     @keyframes box-display{
             
         0% {
             background-image: url(images/old\ lady\ \ with\ \ cell\ phone\ .jpeg);
-            background-size: 500px 500px;
+            background-size: 600px 640px;
     
         }
         25% {
             background-image: url(images/man\ using\ phone.jpeg);
-            background-size: 500px 500px ;
+            background-size: 600px 640px ;
         }
         50%{
             background-image: url(images/happy\ couple\ using\ phone.jpeg);
-            background-size: 500px 500px;
+            background-size: 600px 640px;
         }
 
         
         100%{
             background-image: url(images/old\ people\ pay\ bills.jpeg);
-            background-size: 500px 500px;
+            background-size: 600px 640px;
         }   
     }
  
@@ -182,11 +181,12 @@ body {
     .form-box-right{
         text-align: right;
         background-color: rgb(106, 149, 105);
-        padding:20px;
-        margin: 30px;
+        margin: 0px 0px 300px;
         float:right;
         min-width: 800px;
-        height: 700px;
+        height: 600px;
+        box-shadow: 5px 10px rgb(120, 139, 117);
+    
     }  
 
     :placeholder-shown{
@@ -197,16 +197,26 @@ body {
         display: flex;
         flex-direction:column;
         border: 2px solid black;
-      
+    
     } 
    
     input{
         border:1px solid black;
+        width: 100%;
 
     } 
+    .name{
+        height: 50px;
+    }
+    .form-box-right .email{
+        height: 50px;
+    }
+    .phone{
+        height: 50px;
+}
 
      textarea{
-        height: 80px; 
+        height: 250px; 
     } 
     button{
         background-color:green ;
@@ -226,11 +236,63 @@ body {
         text-align: left;
     } 
     
-
      .form-box-left{
         font-size: 25px;
         padding:20px;
-        height: 500px;
+        height: 400px;
         width: 500px;
-    } 
+        display: inline-block;
 
+
+     }
+    .volunteer{
+        text-align: right;
+        float: right;
+    }
+    
+    .volunteer p {
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: -20px;
+    font-size: 25px;
+    margin-top: -50px;
+    
+    }
+
+    .volunteer img{
+    height: 600px;
+    width: 640px;
+    float: right;
+    padding: 20px;
+    box-shadow: 5px 10px rgb(120, 139, 117);
+    border: 3px solid rgb(106, 149, 105);
+    margin-bottom: -20px;
+    
+    }
+
+    .volunteer h2{
+        text-align: right;
+    }
+    section{
+   position: relative;
+   top: -20px;
+   margin-bottom: -5px;
+    }
+    section .form-box-left{
+        margin-top: -90px;
+    }
+
+@media only screen and (max-width:600px){
+    
+}
+ @media only screen  and (min-width:601px) and  (max-width:850px){
+
+ }
+    
+ @media only screen  and (min-width:851px)and (max-width:1025px){
+
+ }
+    
+
+
+ 
