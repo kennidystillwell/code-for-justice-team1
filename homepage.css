@@ -97,6 +97,7 @@
     footer {
         display: flex;
         justify-content: space-between;
+        position: relative;
     }
     
     #old {
@@ -106,7 +107,7 @@
         border-radius: 47%;
     }
 
-    .email {
+    #email {
         border-radius: 8px;
         border-color: rgb(106, 149, 105);
         height: 20px;
@@ -233,5 +234,139 @@
 
     #bottom-box {
         padding-bottom: 20px;
+    }
 
+    @media (max-width: 768px) {
+
+        header {
+            padding: 3px;
+            max-width: 100%;
+          }
+        
+          .old-picture {
+            flex-direction: column;
+          }
+  
+          #old {
+              max-width: 50%;
+          }
+  
+          #logo {
+              max-width: 15%;
+              position: absolute;
+              top: 1.25%;
+          }  
+        
+        #people-phones {
+            display: list-item;
+            padding: 0px;
+            margin-left: 70px;
+           
+        }
+
+        #third-pic {
+            margin-left: 160px;
+        }
+
+        #second-pic {
+            margin: 15px;
+        }
+
+        #first-pic {
+            margin: 5px;
+        }
+
+        #left-words {
+            max-width: 15%;
+            position: absolute;
+            top: 1%;
+            padding-left: 50px;
+            padding-top: 30px;
+        }
+
+        #right-words {
+            padding-left: 20px;
+            max-width: 15px;
+            position: relative;
+        }
+
+        button {
+            margin-left: 24%;
+        }
+
+    
+        
+    }
+  
+    @media (max-width: 320px) {
+        
+        header {
+          padding: 3px;
+          max-width: 100%;
+        }
+      
+        .old-picture {
+          flex-direction: column;
+        }
+
+        #old {
+            max-width: 50%;
+        }
+
+        #logo {
+            max-width: 15%;
+            position: absolute;
+            top: 1.25%;
+        }
+
+        .navbar {
+            padding: 3px;
+          }
+    
+        .navbar li {
+            margin: 3px 0;
+            text-align: center;
+            font-size: 8px;
+          }
+
+        #DBG {
+            font-size: 39px;
+            text-align: center;
+        }
+
+        .fun-facts {
+            display:list-item;
+            
+        }
+
+        #people-phones {
+            display: none;
+        }
+
+        footer {
+            display: list-item;
+            display:
+        }
+
+        #left-words {
+            display: none;
+        }
+
+        #right-words {
+            justify-content:left;
+            padding-left: 20px;
+            padding-bottom: -80px;
+            font-size: 30px;
+        }
+
+        .right-form {
+            padding-left: 50%;
+        }
+
+        .left-icon {
+            padding-left: 30px;
+        }
+        button {
+            margin-left: 24%;
+        }
     }
