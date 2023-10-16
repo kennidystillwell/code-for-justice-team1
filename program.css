@@ -1,7 +1,31 @@
+*{
+  list-style-type: none;
+}
+
+nav {
+  background-color:rgb(106, 149, 105);
+  }
+  .navbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  }
+  a {
+      text-decoration: none;
+      font-weight: bold;
+      font-family: serif;
+      color: white;
+      padding: 10px;
+  }
+  a:hover {
+      color:black;
+  }
+
 img {
     border: 10px solid rgb(106, 149, 105);
     border-radius: 50%;
   }
+  
  #cutecouple{
   display: block;
   margin-left: auto;
@@ -18,11 +42,11 @@ img {
   margin-right: auto;
  }
 
-section{
+/* section{
   margin-inline: 10px;
   padding-left: 5%;
   float: center;
-}
+} */
 h1{
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
@@ -45,25 +69,34 @@ footer {
 }
 
 .boxed {
-  border: 3px solid  rgb(106, 149, 105);
-  border-radius: 3px;
-  padding: 5%;
-  margin: 5px;
+  border: solid 2px black;
+  background-color: rgb(231, 242, 231);
+  box-shadow: 5px 10px rgb(120, 139, 117) ;
+  margin: 10px;
 }
 
+
 .boxed2{
-  border: 2px solid  rgb(106, 149, 105);
-  border-radius: 1%;
-  padding: 5%;
-  margin: 5px;
+  border: solid 2px black;
+  background-color: rgb(231, 242, 231);
+  box-shadow: 5px 10px rgb(120, 139, 117) ;
+  margin: 10px;
 }
+
 
 .product-grid {
   display: grid;
   grid-template-columns: repeat(7, 0fr);
-  gap: 3px;
+  margin: 4px;
   
 }
+
+button{
+  width: 100px;
+  height: 50px;
+  color: rgb(120, 139, 117);
+}
+
 
 h2{
   font-family: 'Times New Roman', Times, serif;
@@ -77,8 +110,9 @@ h3{
 }
 
 h4{
-  text-align: right;
-  text-indent: 4%;
+  text-align: center;
+  text-indent: 1px;
+  color:rgb(106, 149, 105); ;
 }
 
 p{
@@ -88,5 +122,103 @@ p{
 
 }
 
+#image{
+  text-align: right;
+  border: none;
+  border-radius: 0;
+}
 
 
+footer {
+  background-color: rgb(106, 149, 105);
+  padding: 20px;
+}
+.icons{
+  display: flex;
+  justify-content:center;
+  margin-top: auto;
+}
+#left-words {
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  padding-left: 30px;
+}
+.left {
+  justify-content: flex-start;
+  z-index: 1;
+}
+.left-icon {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  z-index: 2;
+  padding-right: 350px;
+}
+#right-words {
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  padding-left: 350px;
+}
+h3 {
+  display: flex;
+  position: relative;
+}
+.right {
+  justify-content: flex-end;
+  z-index: 1;
+}
+.right-form {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  z-index: 2;
+  padding-right:50px;
+  padding-top: 20px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.email {
+  border-radius: 8px;
+  border-color: rgb(106, 149, 105);
+  height: 20px;
+  padding-left: 5px;
+}
+
+#submit {
+  border-radius: 5px;
+  border-color: rgb(106, 149, 105);
+}
+#submit:hover {
+  box-shadow: 0 0 10px 0 black;
+}
+
+@media only screen and (min-width: 768px){}
+  h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: rgb(106, 149, 105)
+
+  }
+  @media only screen and (min-width: 412px)(max-width: 915px){}
+  h4{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: rgb(106, 149, 105)
+  }
+  @media only screen and (min-width: 432px)(max-width: 768px){}
+  img {
+    border: 3px solid rgb(106, 149, 105);
+    border-radius: 50%;
+    align; left: 10%;
+  }
+
+  
+
+ 

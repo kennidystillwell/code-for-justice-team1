@@ -1,0 +1,3 @@
+function mySend(){
+    alert("Error")
+}
