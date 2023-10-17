@@ -1,4 +1,4 @@
-body {
+    body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -45,6 +45,7 @@ body {
     footer {
         background-color: rgb(106, 149, 105);
         padding: 20px;
+        display: list-item;
     }
     .icons{
         display: flex;
@@ -59,7 +60,7 @@ body {
         color: white;
         text-align: center;
         font-family: sans-serif;
-        padding-left: 30px;
+        padding-left: 22px;
     }
 
     .left {
@@ -114,41 +115,30 @@ body {
         border-radius: 47%;
     }
 
-    .email {
-        border-color: rgb(106, 149, 105);
-        height: 20px;
-        padding-left: 5px;
-    }
-
-    #submit {
-        border-radius: 5px;
-        border-color: rgb(106, 149, 105);
-    }
-
-    #submit:hover {
-        box-shadow: 0 0 10px 0 black;
-    }
     section h1{
         text-align: center;
         font-size: 40px;
         font-family: 'Times New Roman', Times, serif;
+        color: rgb(106, 149, 105);
 
     }
     label{
         font-weight: bold;
+        text-align: left;
     }
    
     
      .box-display{
         height: 640px;
-        width: 600px;
+        width: 640px;
         border: 3px solid rgb(106, 149, 105);
-        box-shadow: 5px 10px rgb(120, 139, 117x);
+        box-shadow: 5px 10px rgb(120, 139, 117);
         animation-name: box-display;
         animation-duration: 7s;
         animation-iteration-count: infinite;
         animation-timing-function: linear;
         display: inline-block; 
+        border-radius: 20px;
      }
 
     @keyframes box-display{
@@ -175,7 +165,7 @@ body {
     }
  
     .form-box-right, h2{
-       text-align: center;
+       text-align:center ;
     }
 
     .form-box-right{
@@ -183,37 +173,37 @@ body {
         background-color: rgb(106, 149, 105);
         margin: 0px 0px 300px;
         float:right;
-        min-width: 800px;
+        width: 1100px;
         height: 600px;
-        box-shadow: 5px 10px rgb(120, 139, 117);
+     
     
     }  
 
     :placeholder-shown{
-        text-align: right;
+        text-align: left;
     }
 
     form{
         display: flex;
         flex-direction:column;
-        border: 2px solid black;
-    
+       
     } 
    
     input{
-        border:1px solid black;
         width: 100%;
 
     } 
     .name{
         height: 50px;
     }
+
     .form-box-right .email{
         height: 50px;
     }
+
     .phone{
         height: 50px;
-}
+    }
 
      textarea{
         height: 250px; 
@@ -221,7 +211,7 @@ body {
     button{
         background-color:green ;
         color: white;
-       border:2px solid black;
+    
     } 
     button:hover{
         background-color: white;
@@ -233,66 +223,53 @@ body {
 
     } 
      .form-box-left h2{
-        text-align: left;
+       text-align: left;
     } 
     
      .form-box-left{
         font-size: 25px;
         padding:20px;
         height: 400px;
-        width: 500px;
+        width: 800px;
         display: inline-block;
-
-
      }
+
     .volunteer{
         text-align: right;
-        float: right;
-    }
-    
-    .volunteer p {
-    text-align: right;
-    font-family: 'Times New Roman', Times, serif;
-    margin-bottom: -20px;
-    font-size: 25px;
-    margin-top: -50px;
-    
     }
 
     .volunteer img{
     height: 600px;
-    width: 640px;
+    width: 700px;
     float: right;
-    padding: 20px;
+    padding: 0px;
     box-shadow: 5px 10px rgb(120, 139, 117);
     border: 3px solid rgb(106, 149, 105);
-    margin-bottom: -20px;
-    
+    margin-top: -527px;
+    border-radius: 20px;
     }
 
     .volunteer h2{
         text-align: right;
     }
-    section{
-   position: relative;
-   top: -20px;
-   margin-bottom: -5px;
-    }
-    section .form-box-left{
-        margin-top: -90px;
-    }
 
-@media only screen and (max-width:600px){
+
+/* @media (max-width:600px){
+    #header {
+    }
+    #nav{
+
+    }
+    #section{
+
+    } */
+
     
-}
- @media only screen  and (min-width:601px) and  (max-width:850px){
+
+ /* @media only screen  and (min-width:601px) and  (max-width:850px){
 
  }
     
  @media only screen  and (min-width:851px)and (max-width:1025px){
 
- }
-    
-
-
- 
+ } */
