@@ -1,3 +1,4 @@
+
 function mySend(){
-    alert("Thank you for submitting!");
+alert("Please fill this out");
 }

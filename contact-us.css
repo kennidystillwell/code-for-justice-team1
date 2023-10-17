@@ -1,4 +1,4 @@
-body {
+    body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -8,25 +8,26 @@ body {
         background-color: rgb(207, 212, 201);  
         text-align:center;
         font-size: 40px;
-    }  
+    } 
+
     header h1:hover{
-    color: white;
+        color: white;
     } 
 
     ul, li {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+        margin: 0;
+        padding: 0;
+        list-style: none;
     }
 
     nav {
-    background-color:rgb(106, 149, 105);
+        background-color:rgb(106, 149, 105);
     }
 
     .navbar {
-    display: flex;
-    justify-content: space-around;
-    padding: 10px;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
     }
 
     a {
@@ -44,6 +45,7 @@ body {
     footer {
         background-color: rgb(106, 149, 105);
         padding: 20px;
+        display: list-item;
     }
     .icons{
         display: flex;
@@ -58,7 +60,7 @@ body {
         color: white;
         text-align: center;
         font-family: sans-serif;
-        padding-left: 30px;
+        padding-left: 22px;
     }
 
     .left {
@@ -103,6 +105,7 @@ body {
     footer {
         display: flex;
         justify-content: space-between;
+    
     }
     
     .old {
@@ -112,117 +115,140 @@ body {
         border-radius: 47%;
     }
 
-    .email {
-        border-radius: 8px;
-        border-color: rgb(106, 149, 105);
-        height: 20px;
-        padding-left: 5px;
-    }
-
-    #submit {
-        border-radius: 5px;
-        border-color: rgb(106, 149, 105);
-    }
-
-    #submit:hover {
-        box-shadow: 0 0 10px 0 black;
-    }
     section h1{
         text-align: center;
         font-size: 40px;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(106, 149, 105);
 
     }
     label{
         font-weight: bold;
+        text-align: left;
     }
    
     
      .box-display{
-        height: 500px;
-        width: 500px;
-        border: 3px solid black;
+        height: 640px;
+        width: 640px;
+        border: 3px solid rgb(106, 149, 105);
+        box-shadow: 5px 10px rgb(120, 139, 117);
         animation-name: box-display;
         animation-duration: 7s;
         animation-iteration-count: infinite;
         animation-timing-function: linear;
-        margin-bottom: 300px;
-        
+        display: inline-block; 
+        border-radius: 20px;
      }
 
     @keyframes box-display{
             
         0% {
             background-image: url(images/old\ lady\ \ with\ \ cell\ phone\ .jpeg);
-            background-size: 500px 500px;
+            background-size: 600px 640px;
     
         }
         25% {
             background-image: url(images/man\ using\ phone.jpeg);
-            background-size: 500px 500px ;
+            background-size: 600px 640px ;
         }
         50%{
             background-image: url(images/happy\ couple\ using\ phone.jpeg);
-            background-size: 500px 500px;
+            background-size: 600px 640px;
         }
 
         
         100%{
             background-image: url(images/old\ people\ pay\ bills.jpeg);
-            background-size: 500px 500px;
+            background-size: 600px 640px;
         }   
     }
-
+ 
     .form-box-right, h2{
-       text-align: right;
+       text-align:center ;
     }
 
     .form-box-right{
         text-align: right;
         background-color: rgb(106, 149, 105);
-        padding:20px;
-        margin: 30px;
+        margin: 0px 0px 300px;
         float:right;
-        min-width: 800px;
-     top: 200px;
-    }
+        width: 1100px;
+        height: 600px;
+     
+    
+    }  
+
     :placeholder-shown{
-        text-align: right;
+        text-align: left;
     }
 
     form{
         display: flex;
         flex-direction:column;
-        border: 2px solid black;
-    }
-    
+       
+    } 
+   
     input{
-        height: 30px;
-        margin-top: 0px;
-        border:1px solid black;
+        width: 100%;
+
+    } 
+    .name{
+        height: 50px;
     }
 
-    textarea{
-        height: 80px; 
+    .form-box-right .email{
+        height: 50px;
     }
+
+    .phone{
+        height: 50px;
+    }
+
+     textarea{
+        height: 250px; 
+    } 
     button{
         background-color:green ;
         color: white;
-       border:2px solid black;
-    }
+    } 
     button:hover{
         background-color: white;
         color:black;
-    }
+    } 
     
-    .form-box-left img{
+     .form-box-left img{
         height :50px;
-    }
-    .form-box-left h2{
-        text-align: left;
-    }
 
-    .form-box-left{
+    } 
+     .form-box-left h2{
+       text-align: left;
+    } 
+    
+     .form-box-left{
         font-size: 25px;
         padding:20px;
-    } 
-  
+        height: 400px;
+        width: 800px;
+        display: inline-block;
+     }
+
+    .volunteer{
+        text-align: right;
+    }
+
+    .volunteer img{
+    height: 600px;
+    width: 700px;
+    float: right;
+    padding: 0px;
+    box-shadow: 5px 10px rgb(120, 139, 117);
+    border: 3px solid rgb(106, 149, 105);
+    margin-top: -527px;
+    border-radius: 20px;
+    }
+
+    .volunteer h2{
+        text-align: right;
+    }
+
