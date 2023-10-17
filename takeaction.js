@@ -6,7 +6,7 @@ const dotsNav =  document.querySelector('.galery_nav')
 const dots = Array.from(dotsNav.children);
 
 
-const slideWidth = slide[0].getBoundingClientRect().width;
+const slideWidth = slide[0].getBoundingClientRect().width + 150;
 
 const setSlidePosition = (slide, index) =>{
     slide.style.left = slideWidth * index + 'px';
@@ -81,4 +81,7 @@ dotsNav.addEventListener('click', e => {
     updateDots(currentDot, targetDot);
     hideShowArrows(slide, prevButton, nextButton, targetIndex);
 });
+
+function myFunction() {
+    alert("please call to this number: (xxx) xxx-xxx or write to us by email: ricardop9701@example.com ");}
 
