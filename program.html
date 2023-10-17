@@ -5,32 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="program.css">
+    <script src="script.js">alert("Error")</script>
 
 </head>
 <body>
     <style>
-        /* body {
+        body {
             background-image: url('Program & Prices/program-images/background-pattern.png');
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: cover;
             opacity: 100%;
-        } */
+        }
         </style>
 
     <div>
         <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Programs & Services</a></li>
-                <li><a href="#">Get Involved</a></li>
-                <li><a href="#">Contact Us </a></li>
+            <ul class="navbar">
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="program.html">About The Issue</a></li>
+                <li><a href="takeaction.html">Take Action</a></li>
+                <li><a href="contact-us.html">Contact</a></li>
             </ul>
         </nav>
     </div>
 
 <main>
+   
+
     <section>
         <img src="Program & Prices/program-images/cute couple.jpg" 
         alt="old man" width="400px" height="350px" id="cutecouple">
@@ -39,11 +42,11 @@
         <p>Affordable Connectivity Program. We offer a benefit program created by 
             FCC (The Federal Communications  Commissions) to ensure your household 
             has connection to the internet for little to no cost. 
-            https://www.fcc.gov/acp</p>
+            </p>
         </div>
-
     </section>
-  
+
+    
     <section>
         <img src="Program & Prices/program-images/cute couplept2.jpg" 
         alt="old woman" width="400px" height="350" id="handsomeman">
@@ -51,7 +54,7 @@
         <div class="boxed">
         <p>Eligible households can also receive a one-time discount of up to $100 to purchase a 
             laptop, desktop computer, or tablet from participating providers if they contribute more than $10 
-            and less than $50 toward the purchase price. https://www.fcc.gov/acp</p>
+            and less than $50 toward the purchase price. </p>
         </div>
        
     </section>
@@ -64,38 +67,54 @@
         <p> With our initiative we offer classes to teach digital literacy to anyone who qualifies. 
             Our workshops include: Digital Lifestyle, 
             Staying Safe Online (SSO), Knowing Digital Resources, Online Transactions.
-             https://trainingcms.apple.com/it</p>
-         </div>
+        </p>
+        </div>
     </section>
-
+ 
     <section>
         <div class="product-grid">
         <div class="DLClass">
-            <img src="Program & Prices/program-images/laptopai.jpeg" alt="DLClass" height="100px">
+            <img src="Program & Prices/program-images/digital literacy.png" alt="DLClass" height="100px" width="100px">
             <h3>Digital Literacy</h3>
-            <p>$15.99</p>
-        <button>Sign Up Now!</button>
+            <!-- <p>$10.99</p> -->
+            <button onclick="window.location.href='https://trainingcms.apple.com/overview';">Sign Up Now!</button>
         </div>
         <div class="product-grid">
         <div class="DLClass2">
-            <img src="Program & Prices/program-images/laptopai.jpeg" alt="DLClass" height="100px">
+            <img src="Program & Prices/program-images/dbf.png" alt="DLClass" height="100px" width="100px">
             <h3>Staying Safe Online</h3>
-            <p>$15.99</p>
-        <button>Sign Up Now!</button>
+            <!-- <p>$9.99</p> -->
+            <button onclick="window.location.href='https://trainingcms.apple.com/overview';">Sign Up Now!</button>
         </div>
         <div class="product-grid">
         <div class="DLClass3">
-            <img src="Program & Prices/program-images/laptopai.jpeg" alt="DLClass" height="100px">
-            <h3>Knowing Digital Resources</h3>
-            <p>$15.99</p>
-        <button>Sign Up Now!</button>
+            <img src="Program & Prices/program-images/acp4.png" alt="DLClass" height="100px" width="100px">
+            <h3> Digital Resources</h3>
+            <!-- <p>$10.99</p> -->
+            <button onclick="window.location.href='https://www.fcc.gov/acp';">Sign Up Now!</button>
+        </div>
         <div class="product-grid">
-        <div class="DLClass3">
-            <img src="Program & Prices/program-images/laptopai.jpeg" alt="DLClass" height="100px">
+        <div class="DLClass4">
+            <img src="Program & Prices/program-images/online.png" alt="DLClass" height="100px" width="100px">
             <h3>Online Transactions</h3>
-            <p>$15.99</p>
-        <button>Sign Up Now!</button>
+            <!-- <p>$3.99</p> -->
+            <button onclick="window.location.href='https://trainingcms.apple.com/overview';">Sign Up Now!</button>
         </div>
+
+        <style>
+            .image {border-radius: 0; 
+            text-align: right;
+            width: 1000px;
+            height: 600px;
+            display: grid;
+            align-items: right;
+            margin: 36px;
+            }
+          </style>
+        <img class="image"
+               src="Program & Prices/program-images/Stats.png"
+               alt="Stats">
+
     </section>
 
     <div class="boxed2">
@@ -104,25 +123,38 @@
         We advocate to help our older generation navigate through technology so that 
         they can feel more comfortable making technical decisions. Part of our mission 
         is to empower individuals to use technology responsibly and safely. 
-        As a team we are very determined to help others develop their digital skills! </h2>
-</div>
-    
+        As a team we are very determined to help others develop their digital skills! </h4>
+
+        <style>
+            .logo {border-radius: 0; 
+            text-align: right;
+            width: 100px;
+            height: 100px;
+            display: grid;
+            align-items: right;
+            margin: 36px;
+            }
+          </style>
+        <img class="logo"
+               src="Program & Prices/program-images/logo.png"
+               alt="Stats">
+                 
+</div>  
+
+
+
 </main>
 
-
-
 <footer>
-     
-
      <div class="left">
         <h4 id="left-words">Connect With Us</h4>
         </div>
 
     <div class="left-icon">
         <ul class="icons">
-            <li><a href="#"><img src="" height="50px" width="50px"></a></li>
-            <li><a href="#"><img src="homepage-images/instagram icon.png" height="50px" width="50px"></a></li>
-            <li><a href="#"><img src="homepage-images/twitter icon.png" height="50px" width="50px"></a></li>
+            <li><a href="#"><img src="Program & Prices/program-images/instagram icon.png" height="50px" width="50px"></a></li>
+            <li><a href="#"><img src="Program & Prices/program-images/twitter icon.png" height="50px" width="50px"></a></li>
+            <li><a href="#"><img src="Program & Prices/program-images/facebook icon.png" height="50px" width="50px"></a></li>
         </ul>
     </div>
 
@@ -136,9 +168,6 @@
             <input id="submit" type="submit" value="submit">
         </form>
     </div>
-        
-    
-
     </footer>
 </body>
 </html>
